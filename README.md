@@ -11,6 +11,7 @@ A simple workflow was designed on KNIME Analytics Platform to figure out how a w
 
 ## Batch File and Commands
 A simple command was put into the batch file as shown below.
+
 *"C:\Program Files\KNIME\knime.exe" -nosplash -application org.knime.product.KNIME_BATCH_APPLICATION 
 -workflowDir="C:/Users/<user>/knime-workspace/WF" -reset*
 
