@@ -12,12 +12,13 @@ A simple workflow was designed on KNIME Analytics Platform to figure out how a w
 ## Batch File and Commands
 A simple command was put into the batch file as shown below.
 *"C:\Program Files\KNIME\knime.exe" -nosplash -application org.knime.product.KNIME_BATCH_APPLICATION 
--workflowDir="C:/Users/<user>/knime-workspace/WF" -reset 
+-workflowDir="C:/Users/<user>/knime-workspace/WF" -reset*
+
 Arguments:
 -"C:\Program Files\KNIME\knime.exe":Launches KNIME.
 -consoleLog:Causes a new window to be opened containing the log messages and will keep the window open after the execution has finished.
 -reset:Reset workflow prior to execution.
--workflowDir="C:/Users/<user>/knime-workspace/workflow":*
+-workflowDir="C:/Users/<user>/knime-workspace/workflow":
 Shows the directory of the workflow to be executed.
 We can edit the command line to switch between different workflows when required.
 Enter the command into a file and save as a .bat file.
